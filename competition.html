@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitions | Truimphant Racers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" style="width: 50px; opacity: 1;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="cars.html">CARS</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="sponsor.html">SPONSORS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="https://forms.gle/z2H144JNYEVjsvzEA"> RECRUITMENT FORM </a></li>
+                    <li><a href="events.html"> EVENTS </a></li>
+                </ul>
+            </div>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Competitions</h1>
+    </section>
+
+    <!-- competition content -->
+    <section class="competition">
+        <div class="row">
+            <div class="competition-col">
+                <h1 style="font-size: 35px;">FORMULA STUDENT</h1>
+                <p>Formula Student is Europe’s biggest educational motorsport event. It challenges engineers to design, build and compete as a team with their own single racing car. The annual event run by the Institution of Mechanical Engineers (IMechE) attracts 95 teams representing universities from all corners of the globe. It challenges students to design, build and race a one man, open-wheeled race car assuming that they have been engaged by a manufacturing firm to produce a prototype car for evaluation as a potential production item.</p>
+                <hr>
+                <p style="background: #fff3f3;">The team’s hard work culminates in July at the actual Formula Student event which takes place at the famous Silverstone Racing Circuit. It is here that teams demonstrate to the judges, in a series of events, that the car is fit for purpose as well as presenting a business plan that sells their concept to potential investors. The Formula Student competition features two main disciplines, the Static Events and the Dynamic Events.</p>
+                <hr>
+            </div>
+            <div class="competition-col">
+                <img src="images/formula.png">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="competition-col">
+                <h1 style="font-size: 35px;">FORMULA BHARAT</h1>
+                <p>Formula Bharat is an Indian Formula Student-style engineering design competition in which students from colleges and universities all over the country, compete with a life-size formula-style vehicle in areas of engineering design, overall cost, marketability and dynamic performance. The series replicates the global student Formula series hosted in around 11 countries per year.</p>
+                <hr>
+                <p style="background: #fff3f3;">The purpose of this competition is to encourage students to gain hands-on practical experience, while applying engineering theories studied in the classroom. In addition, students learn the art of management and teamwork, which are essential skills required in the ‘real-world’. These student teams are required to build a new vehicle from scratch year-after-year and seek sponsorship and donations by their own means to fund the project.</p>
+                <hr>
+            </div>
+            <div class="competition-col">
+                <img src="images/bharat.jpg">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="competition-col">
+                <h1>SUPRA</h1>
+                <p>SUPRA SAEIndia is an exciting competition which presents undergraduate engineering students with a challenging task of designing, simulating and modelling a formula type car. Each team is required to design fabricate a protype of the racecar in accordance with strict rules and guidelines provided.</p>
+                <hr>
+                <p style="background: #fff3f3;">3000 engineering students from 112 teams participate in the competition. Maruti Suzuki is the title sponsor of SUPRA India 2020. The Event is judged by an panel comprising of 100 eminent experts from the automotive industry and motorsports faternity including international experts from germany</p>
+                <hr>
+                <h2 style="font-weight: 500; font-size: 20px;">Events</h2>
+                <p>Static- 1.Business Presenation, 2.Cost Report, 3.Engineering Design<br>
+                    Dynamic - 1.Skid pad, 2.Acceleration, 3.Endurance, 4.Efficiency
+                </p>
+            </div>
+            <div class="competition-col">
+                <img src="images/supra2.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <section class="footer">
+        <hr>
+        <div class="icons">
+            <a href="https://www.facebook.com/triumphantracers/?ti=as"><i class="fa fa-facebook"></i></a>
+           <!-- <i class="fa fa-twitter"></i> -->
+            <a href="https://instagram.com/triumphantracers?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/triumphantracers/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://youtube.com/user/triumphantracers"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="footer-content">
+            <h1>Feel free to contact</h1>
+            <p>© 2021, Made by Truimphant Racers Team</p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

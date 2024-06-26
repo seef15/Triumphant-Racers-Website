@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Truimphant Racers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="" src="images/logo.png"/>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" style="width: 50px; opacity: 1;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul> 
+                    <li><a href="competition.html">COMPETITIONS</a></li>
+                    <li><a href="cars.html">CARS</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="sponsor.html">SPONSORS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="https://forms.gle/z2H144JNYEVjsvzEA"> RECRUITMENT FORM </a></li>
+                    <li><a href="events.html"> EVENTS </a></li>
+                </ul>
+            </div>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1 style="font-size:30px">Triumphant Racers</h1>
+            <p></p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>About Us</h1>
+        <p>Truimphant Racers Team is a student run, non-profit racing team based in Bharti Vidyapeeth College Of
+            Engineering, Kharghar, Navi Mumbai. We are a team of budding engineering students from various streams and
+            we develop, design and manufacture a formula style car for competitions.</p>
+    </section>
+
+    <section class="cards">
+        <h1>Departments for cars</h1>
+        <div class="row">
+            <div class="cards-col">
+                <h3>Combustion Cars</h3>
+            </div>
+            <div class="cards-col">
+                <h3>Electric Cars</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments -->
+    <section class="cards">
+        <h1>Our Combustion Cars Departments</h1>
+        <div class="row">
+            <div class="cards-col">
+                <h3>Engine</h3>
+                <p>The engine department is responsible for the design and manufacturing of the gearbox and the cooling
+                    system</p>
+            </div>
+            <div class="cards-col">
+                <h3>Brakes</h3>
+                <p>Brake department designs and manufactures master cylinder, brakes pad, axles, piston, balance bar,
+                    disc plate, brake calliper etc</p>
+            </div>
+            <div class="cards-col">
+                <h3>Chassis</h3>
+                <p>Design and manufacture structure of vehicle for all the parts to come together and ensures
+                    coordination of vehicle and also ergonomics for comfort and accessibility of driver.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cards-col">
+                <h3>Vehicle Dynamics</h3>
+                <p>Vehicle dynamics department handles suspension and steering. This includes forces acting on the car,
+                    driver inputs and feedback, motion of the car with respect to various conditions on track.</p>
+            </div>
+            <div class="cards-col">
+                <h3>Wheel Assembly</h3>
+                <p>Wheel assembly department designs and manufactures parts that connects mainframe of the body with the
+                    wheels through suspension arms. The goal of the department is to produce lighter performance
+                    oriented design of wheel assembly.</p>
+            </div>
+            <div class="cards-col">
+                <h3>Marketing</h3>
+                <p>Taking care of all the Monetary associations with sponsors and also Technical associations with
+                    various leading industries in their genre.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cards-col">
+                <h3>Electronics</h3>
+                <p>Electronics department design and connects circuits to provide control for variety of systems in vehicle.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="cta1">
+        <h1>PRESENTING ABHYUDAY</h1>
+        <a href="presenting.html" class="hero-btn">Explore -></a>
+    </section>
+
+
+    <!-- footer -->
+    <section class="footer">
+        <hr>
+        <div class="icons">
+            <a href="https://www.facebook.com/triumphantracers/?ti=as"><i class="fa fa-facebook"></i></a>
+           <!-- <i class="fa fa-twitter"></i> -->
+            <a href="https://instagram.com/triumphantracers?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/triumphantracers/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://youtube.com/user/triumphantracers"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="footer-content">
+            <h1>Feel free to contact</h1>
+            <p>© 2021, Made by Truimphant Racers Team</p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
